@@ -137,7 +137,7 @@ python -m unittest tests.data_test
 python -m unittest tests.transform_test
 ```
 
-## How to run
+## How to run the program
 
 To run the software, execute the following command from the project folder:
 
