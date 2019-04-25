@@ -9,7 +9,7 @@
 This is a toy weather data generator that simulates atmosphere, topography, geography and oceanography that evolves over time. It generates measurements at various locations and times, and the program emit data, as in the following:
 
 Location  | Position         | Local Time          | Conditions | Temperature | Pressure | Humidity
---------- | ---------------- | ------------------- | ---------- | -----------:| --------:| --------:
+--------- | ---------------- | ------------------- |------------| ---------| ---------
 Sydney    | -33.86,151.21,39 | 2015-12-23 16:02:12 | Rain       |       +12.5 |   1010.3 | 98
 Melbourne | -37.83,144.98,7  | 2015-12-25 02:30:55 | Snow       |        -5.3 |    998.4 | 52
 Adelaide  | -34.92,138.62,48 | 2016-01-04 23:05:37 | Sunny      |       +39.4 |   1114.1 | 11
@@ -73,10 +73,10 @@ cd weather_generator
 python run.py --number_simulated_data=<number_simulated_data> --generate_baseline_flag=<generate_baseline_flag>
 ```
 Arguments:
-| Parameter                 | Default       | Required   |	Description   |
-| :------------------------ |:-------------:| :-------------| :-------------|
-| \-\-number_simulated_data|N/A| Yes|Number of data points to be generated|
-| \-\-generate_baseline_flag| 0.1|No|Flag if new baseline data is generated|
+Parameter                 | Default       | Required   | Description   
+:------------------------ |--------------| --------------| --------------
+\-\-number_simulated_data | N/A| Yes | Number of data points to be generated
+\-\-generate_baseline_flag | 0.1 | No | Flag if new baseline data is generated
 
 
 
