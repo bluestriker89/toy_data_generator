@@ -3,10 +3,6 @@
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
-
-
-
-
 This is a toy weather data generator that simulates atmosphere, topography, geography and oceanography that evolves over time. It generates measurements at various locations and times, and the program emit data, as in the following:
 
 Location  | Position         | Local Time          | Conditions | Temperature | Pressure | Humidity
@@ -115,6 +111,12 @@ output_columns | Location, Position, Local Time, Conditions, Temperature, Pressu
 
 This logging configuration file contains the loggin settings.
 
+### Assumptions
+
+This project has the following assumptions:
+ - The weather data generated is not meteorologically accurate.
+ - Different data points is generated for the same location e.g. Sydney can have multiple generated data for different timestamps.
+
 ## Running test cases
 
 To test the software, execute the following command from the project folder:
@@ -145,6 +147,21 @@ Parameter                 | Default       | Required   | Description
 \-\-generate_baseline_flag | False | No | Flag if new baseline data is generated
 
 Sample successful execution output using `python run.py --number_simulated_data=10` command:
+
+```sh
+Beijing|39.91,116.39,1|2014-05-17T05:04:10Z|Rain|+13.3|1008.8|58
+London|51.51,-0.13,0|2017-03-19T07:08:47Z|Snow|+9.5|1025.2|72
+Paris|48.86,2.35,1|1996-02-14T17:51:15Z|Rain|+5.3|1002.0|86
+Paris|48.86,2.35,1|1998-03-26T11:49:09Z|Snow|+5.7|1004.9|85
+Melbourne|-37.81,144.96,1|2002-06-19T22:23:53Z|Snow|+9.4|1010.2|72
+Buenos Aires|-34.61,-58.44,1|2013-09-29T18:09:11Z|Rain|+16.8|1018.8|77
+Sydney|-33.85,151.22,0|1990-12-19T15:58:18Z|Snow|+27.2|1010.8|75
+Los Angeles|34.05,-118.24,4|1981-03-26T05:05:16Z|Rain|+15.2|1016.2|50
+Los Angeles|34.05,-118.24,4|1981-05-07T17:49:53Z|Rain|+15.2|1015.7|74
+Cape Town|-33.93,18.42,1|2004-01-09T12:31:18Z|Rain|+18.3|1012.3|60
+```
+
+Sample successful execution log using `python run.py --number_simulated_data=10` command:
 
 ```sh
 2019-04-25 12:30:00,404 - root - INFO - [run.py:49] Running weather data generator with number_simulated_data: 10 and generate_baseline_flag: False.
