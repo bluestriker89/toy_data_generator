@@ -107,7 +107,7 @@ Parameter                 | Default  | Description
 date_start | 1980-01-01 | Minimum weather data date to be generated
 date_end | 2018-12-31 | Maximum weather data date to be generated
 output_header  | False | Output header flag
-output_delimiter | '|' | Output file delimiter
+output_delimiter | \| | Output file delimiter
 output_subdirectory | output | Output folder subdirectory
 output_data | simulated_weather_output.csv | Output data file name
 condition | Rain, Snow, Sunny | Valid weather condition values
