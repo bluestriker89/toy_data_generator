@@ -38,11 +38,18 @@ Clone the git repository to your local machine using the command
 git clone https://github.com/bluestriker89/toy_data_generator.git
 ```
 
-Once the prerequisite software is installed, go to the project folder and install the Python libraries using the command from the project folder:
+Once the prerequisite software is installed, go to the project folder and install the Python libraries using the command from the project folder.
 
+For Windows,
 ```sh
-pip install --user -r requirements.txt
+pip install --user -r requirements_win.txt
 ```
+
+For non-windows like Linux, Unix, etc.,
+```sh
+pip install --user -r requirements_non_win.txt
+```
+
 Then, change the `forecastio_api_key` value in `config.yaml` under the `config` folder.
 
 ### Configuration
