@@ -1,0 +1,77 @@
+---
+# This is the configuration data file.
+forecastio_api_key: <CHANGE ME>
+
+# Baseline data configuration parameters.
+gis:
+  input_subdirectory: elevation
+  input_file_name: gebco_08_rev_elev_{grid_id}_grey_geo.tif
+  output_subdirectory: baseline
+  output_base_reference_file_name: baseline_gis_reference.csv
+  output_base_historical_file_name: baseline_gis_historical.csv
+  output_base_aggregate_file_name: baseline_gis_aggregate.csv
+  sampling_number: 2
+  year_start: 2010
+  year_end: 2017
+  latitude_condition:
+    condition_1:
+      min_lat: 0.0
+      max_lat: 90.0
+      grid_lat: '1'
+    condition_2:
+      min_lat: -90.0
+      max_lat: 0.0
+      grid_lat: '2'
+  longitude_condition:
+    condition_1:
+      min_lon: -180.0
+      max_lon: -90.0
+      grid_lon: A
+    condition_2:
+      min_lon: -90.0
+      max_lon: 0.0
+      grid_lon: B
+    condition_3:
+      min_lon: 0.0
+      max_lon: 90.0
+      grid_lon: C
+    condition_4:
+      min_lon: 90.0
+      max_lon: 180.0
+      grid_lon: D
+      
+# List of valid locations to be simulated.
+location:
+- Sydney, Australia
+- Katoomba, Australia
+- Melbourne, Australia
+- Adelaide, Australia
+- Beijing, China
+- Manila, Philippines
+- Paris, France
+- London, United Kingdom
+- Toronto, Canada
+- Los Angeles, United States
+- Buenos Aires, Argentina
+- Cape Town, South Africa
+
+# Simulated data parameters.
+simulation:
+  date_start: 1980-01-01
+  date_end: 2018-12-31
+  output_header : False
+  output_delimiter: '|'
+  output_subdirectory: output
+  output_data: simulated_weather_output.csv
+  condition:
+    - Rain
+    - Snow
+    - Sunny
+  output_columns:
+    - Location
+    - Position
+    - Local Time
+    - Conditions
+    - Temperature
+    - Pressure
+    - Humidity
