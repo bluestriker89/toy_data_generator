@@ -43,7 +43,7 @@ git clone https://github.com/bluestriker89/toy_data_generator.git
 
 Once the prerequisite software is installed, go to the project folder and install the Python libraries using the command:
 
-```python
+```sh
 pip install --user -r requirements.txt
 ```
 Then, change the `forecastio_api_key` value in `config.yaml` under the `config` folder.
@@ -68,15 +68,15 @@ Dillinger uses a number of open source projects to work properly:
 
 To run the software, use the following command:
 
-```python
+```sh
 cd weather_generator
 python run.py --number_simulated_data=<number_simulated_data> --generate_baseline_flag=<generate_baseline_flag>
 ```
 Arguments:
 | Parameter                 | Default       | Required   |	Description   |
 | :------------------------ |:-------------:| :-------------| :-------------|
-| \-\-number_simulated_data|N/A| Yes|Number of data points to be generated
-| \-\-generate_baseline_flag| 0.1|No|Flag if new baseline data is generated
+| \-\-number_simulated_data|N/A| Yes|Number of data points to be generated|
+| \-\-generate_baseline_flag| 0.1|No|Flag if new baseline data is generated|
 
 
 
