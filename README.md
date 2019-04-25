@@ -73,6 +73,7 @@ cd weather_generator
 python run.py --number_simulated_data=<number_simulated_data> --generate_baseline_flag=<generate_baseline_flag>
 ```
 Arguments:
+
 Parameter                 | Default       | Required   | Description   
 :------------------------ |--------------| --------------| --------------
 \-\-number_simulated_data | N/A| Yes | Number of data points to be generated
