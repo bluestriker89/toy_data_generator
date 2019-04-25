@@ -52,24 +52,33 @@ Then, change the `forecastio_api_key` value in `config.yaml` under the `config` 
 
 The configurations are found in `config` folder containing the settings used when generating data and logging.
 
-#### config.yaml
+#### A. config.yaml
 
 This configuration file includes settings to generate baseline, simulated weather data and location list. Below are the top level configuration keys available:
 
-##### forecastio_api_key
+##### 1. forecastio_api_key
 
 This is the Dark Sky API to extract historical weather data.
 
-##### gis
+##### 2. gis
 
 This contains the list of parameters to generate baseline data sets.
 
 Parameter                 | Default  | Description   
 ------------------------ |--------------| --------------
-\-\-number_simulated_data | N/A| Number of data points to be generated
-\-\-generate_baseline_flag | False | Flag if new baseline data is generated
+input_subdirectory | elevation | 
+input_file_name | gebco_08_rev_elev_{grid_id}_grey_geo.tif | Elevation file name with `{grid_id}` as arbitrary variable
+output_subdirectory | baseline | Output folder subdirectory
+output_base_reference_file_name | baseline_gis_reference.csv | Baseline reference data file name
+output_base_historical_file_name | baseline_gis_historical.csv | Baseline historical data file name
+output_base_aggregate_file_name | baseline_gis_aggregate.csv | Baseline aggregate data file name
+sampling_number | 2 | Number of historical baseline sample to be generated
+year_start | 2010 | Minimum baseline historical year data to be generated
+year_end | 2017 | Maximum baseline historical year data to be generated
+latitude_condition | See the `config.yaml` | Condition in the getting the `{grid_id}` latitude file number
+longitude_condition | See the `config.yaml` | Condition in the getting the `{grid_id}` longitude file letter
 
-#### logging.yaml
+#### B. logging.yaml
 
 This logging configuration file contains the loggin settings.
 
