@@ -41,7 +41,7 @@ Clone the git repository to your local machine using the command
 git clone https://github.com/bluestriker89/toy_data_generator.git
 ```
 
-Once the prerequisite software is installed, go to the project folder and install the Python libraries using the command:
+Once the prerequisite software is installed, go to the project folder and install the Python libraries using the command from the project folder:
 
 ```sh
 pip install --user -r requirements.txt
@@ -54,30 +54,53 @@ The configurations are found in `config` folder containing the settings used whe
 
 #### config.yaml
 
-This configuration file includes settings to generate baseline, simulated weather data and location list.
+This configuration file includes settings to generate baseline, simulated weather data and location list. Below are the top level configuration keys available:
+
+##### forecastio_api_key
+
+This is the Dark Sky API to extract historical weather data.
+
+##### gis
+
+This contains the list of parameters to generate baseline data sets.
+
+Parameter                 | Default  | Description   
+------------------------ |--------------| --------------
+\-\-number_simulated_data | N/A| Number of data points to be generated
+\-\-generate_baseline_flag | False | Flag if new baseline data is generated
 
 #### logging.yaml
 
 This logging configuration file contains the loggin settings.
 
-## Running tests
+## Running test cases
 
-Dillinger uses a number of open source projects to work properly:
+To test the software, execute the following command from the project folder:
+```sh
+cd weather_generator
+```
+
+Then, execute the individual test cases using the command:
+```sh
+python -m unittest tests.data_test
+python -m unittest tests.transform_test
+```
 
 ## Execution
 
-To run the software, use the following command:
+To run the software, execute the following command from the project folder:
 
 ```sh
 cd weather_generator
 python run.py --number_simulated_data=<number_simulated_data> --generate_baseline_flag=<generate_baseline_flag>
 ```
+
 Arguments:
 
 Parameter                 | Default       | Required   | Description   
 ------------------------ |--------------| --------------| --------------
 \-\-number_simulated_data | N/A| Yes | Number of data points to be generated
-\-\-generate_baseline_flag | 0.1 | No | Flag if new baseline data is generated
+\-\-generate_baseline_flag | False | No | Flag if new baseline data is generated
 
 Sample successful execution output:
 

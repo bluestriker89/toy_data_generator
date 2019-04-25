@@ -43,8 +43,17 @@ gis:
 # List of valid locations to be simulated.
 location:
 - Sydney, Australia
+- Katoomba, Australia
+- Melbourne, Australia
 - Adelaide, Australia
 - Beijing, China
+- Manila, Philippines
+- Paris, France
+- London, United Kingdom
+- Toronto, Canada
+- Los Angeles, United States
+- Buenos Aires, Argentina
+- Cape Town, South Africa
 
 # Simulated data parameters.
 simulation:

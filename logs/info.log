@@ -311,3 +311,563 @@
 2019-04-25 12:30:00,474 - root - INFO - [weather_data_generator.py:217] Saving output_data in C:\Users\emillaurenc\Google Drive\Codes\Weather\toy_data_generator\data\output\simulated_weather_output.csv.
 2019-04-25 12:30:00,484 - root - INFO - [weather_data_generator.py:224] Completed saving output_data in C:\Users\emillaurenc\Google Drive\Codes\Weather\toy_data_generator\data\output\simulated_weather_output.csv.
 2019-04-25 12:30:00,484 - root - INFO - [run.py:60] Completed running weather data generator in 00:00:00:0.08053994178771973.
+2019-04-25 13:24:38,902 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:38,910 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:38,910 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:38,910 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:38,919 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:38,919 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:38,922 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:38,922 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:38,929 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:38,942 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:38,950 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:38,950 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:38,951 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:38,954 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:38,954 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:38,958 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:38,958 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:38,962 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:38,962 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:38,963 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:38,965 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:38,965 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:38,969 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:38,969 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:38,973 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:38,974 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:38,977 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:38,978 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:38,978 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:38,978 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:38,981 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:38,981 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:38,999 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:39,000 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:39,001 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:39,001 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:39,003 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:39,004 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:39,006 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:39,006 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:39,017 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,025 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,025 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,026 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,034 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,035 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,040 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,040 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,046 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,056 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,065 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,065 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,066 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,071 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,072 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,077 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,077 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,085 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,086 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:39,086 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:39,091 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:39,091 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:39,098 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:39,099 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:39,103 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:39,103 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,113 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,114 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:39,116 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:39,117 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:39,123 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:39,124 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:39,134 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:39,134 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:39,136 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:39,137 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:39,140 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:39,141 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:39,143 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:39,143 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:39,158 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,165 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,167 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,167 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,175 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,175 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,179 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,179 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,187 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,195 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,203 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,204 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,205 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,212 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,213 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,218 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,218 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,223 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,223 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:39,224 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:39,229 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:39,229 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:39,236 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:39,236 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:39,241 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:39,243 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,252 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,253 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:39,254 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:39,258 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:39,260 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:39,261 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:39,270 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:39,270 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:39,272 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:39,272 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:39,274 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:39,275 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:39,278 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:39,279 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:39,288 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,297 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,298 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,299 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,302 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,303 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,307 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,307 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,314 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,325 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,333 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,334 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,334 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,340 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,340 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,346 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,347 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,352 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,353 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:39,353 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:39,355 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:39,356 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:39,362 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:39,363 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:39,367 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:39,368 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,372 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,373 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:39,373 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:39,374 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:39,376 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:39,378 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:39,388 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:39,388 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:39,390 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:39,392 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:39,394 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:39,394 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:39,398 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:39,399 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:39,411 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,421 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,421 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,422 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,430 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,430 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,437 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,437 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,444 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,455 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,463 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,464 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,466 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,469 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,470 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,476 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,476 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,481 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,483 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:39,484 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:39,489 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:39,489 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:39,495 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:39,495 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:39,505 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:39,506 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,512 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,515 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:39,517 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:39,518 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:39,520 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:39,520 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:39,530 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:39,530 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:39,532 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:39,533 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:39,535 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:39,535 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:39,539 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:39,539 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:39,549 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,557 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,557 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,557 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,567 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,567 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,573 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,573 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,579 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,590 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,604 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,604 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,605 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,611 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,611 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,616 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,616 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,622 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,622 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:39,622 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:39,625 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:39,627 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:39,633 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:39,633 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:39,639 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:39,639 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,644 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,648 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:39,650 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:39,651 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:39,653 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:39,653 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:39,664 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:39,664 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:39,666 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:39,666 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:39,668 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:39,669 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:39,671 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:39,672 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:39,682 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,689 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,690 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,690 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,696 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,696 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,700 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,700 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,706 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,715 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,722 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,723 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,723 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,731 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,732 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,736 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,736 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,741 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,741 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:39,742 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:39,747 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:39,747 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:39,753 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:39,754 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:39,757 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:39,758 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,766 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,766 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:39,767 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:39,767 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:39,770 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:39,771 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:39,778 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:39,778 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:39,781 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:39,782 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:39,784 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:39,786 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:39,788 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:39,789 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:39,796 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,804 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,804 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,804 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,811 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,812 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,818 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,819 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,824 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,834 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,842 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,842 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,843 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,851 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,853 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,859 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,859 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,866 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,866 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:39,867 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:39,871 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:39,871 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:39,876 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:39,876 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:39,882 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:39,883 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,891 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:39,891 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:39,892 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:39,893 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:39,896 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:39,898 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:39,906 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:39,907 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:39,909 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:39,912 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:39,914 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:39,915 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:39,917 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:39,918 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:39,929 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,937 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,938 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,939 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,947 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,949 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,955 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,956 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,963 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,973 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:39,983 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:39,984 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:39,984 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:39,987 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:39,988 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:39,993 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:39,994 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:39,999 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:39,999 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:40,000 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:40,006 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:40,006 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:40,011 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:40,011 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:40,020 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:40,020 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,025 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,025 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:40,026 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:40,027 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:40,031 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:40,033 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:40,039 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:40,039 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:40,041 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:40,041 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:40,043 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:40,049 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:40,052 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:40,052 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:40,064 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:40,072 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:40,073 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:40,074 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:40,079 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:40,079 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:40,084 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:40,085 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:40,090 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:40,101 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:40,108 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:40,109 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:40,110 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:40,117 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:40,118 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:40,123 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:40,123 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:40,128 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:40,129 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:40,132 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:40,134 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:40,134 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:40,141 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:40,141 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:40,145 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:40,147 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,154 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,154 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:40,154 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:40,157 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:40,159 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:40,161 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:40,169 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:40,169 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:40,171 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:40,172 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:40,176 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:40,177 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:40,180 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:40,182 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:40,190 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:40,199 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:40,199 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:40,200 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:40,205 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:40,206 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:40,214 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:40,214 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:40,218 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:40,231 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:40,239 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:40,240 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:40,240 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:40,248 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:40,249 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:40,255 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:40,255 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:40,264 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:40,265 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:40,265 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:40,268 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:40,268 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:40,274 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:40,274 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:40,279 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:40,279 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,283 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,284 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:40,284 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:40,287 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:40,289 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:40,289 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:40,298 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:40,298 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:40,300 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:40,300 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:40,302 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:40,303 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:40,306 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:40,307 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:40,317 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:40,324 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:40,325 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:40,325 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:40,332 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:40,333 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:40,337 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:40,337 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:40,340 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:40,350 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:40,358 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:40,359 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:40,360 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:40,365 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:40,365 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:40,369 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:40,369 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:40,375 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:40,375 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:40,376 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:40,381 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:40,383 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:40,388 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:40,388 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:40,393 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:40,394 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,400 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,400 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:40,401 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:40,401 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:40,405 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:40,406 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:40,415 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:40,415 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:40,417 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:40,419 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:40,421 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:40,422 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:40,426 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:40,426 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:40,435 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:40,443 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:40,444 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:40,444 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:40,451 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:40,452 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:40,455 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:40,455 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:40,463 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:40,475 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:40,485 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:40,486 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:40,486 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:40,492 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:40,493 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:40,498 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:40,499 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:40,506 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:40,506 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:40,507 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:40,511 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:40,511 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:40,517 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:40,517 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:40,522 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:40,523 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,529 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,530 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:40,532 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:40,533 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:40,535 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:40,535 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:40,544 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:40,545 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:40,547 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:40,548 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:40,552 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:40,553 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:40,556 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:40,556 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:24:40,569 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:40,581 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:40,582 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:40,583 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:40,587 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:40,588 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:40,592 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:40,593 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:40,598 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:40,608 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:24:40,617 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:24:40,618 - root - INFO - [weather_data_generator.py:65] Baseline data sets exists.
+2019-04-25 13:24:40,620 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:24:40,624 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:24:40,624 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:24:40,629 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:24:40,630 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:24:40,637 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:24:40,637 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:24:40,638 - root - INFO - [weather_data_generator.py:93] Generating 100 random location(s).
+2019-04-25 13:24:40,640 - root - INFO - [weather_data_generator.py:98] Completed generating 100 random location(s).
+2019-04-25 13:24:40,642 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:24:40,649 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:24:40,650 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:24:40,655 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:24:40,656 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,666 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:24:40,666 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:24:40,667 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:24:40,668 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:24:40,669 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:24:40,670 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:24:40,680 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:24:40,681 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:24:40,683 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:24:40,684 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:24:40,687 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:24:40,688 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:24:40,690 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:24:40,691 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
