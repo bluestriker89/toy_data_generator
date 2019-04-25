@@ -115,7 +115,7 @@ Sample successful execution output:
 2019-04-25 12:30:00,473 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
 2019-04-25 12:30:00,474 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
 2019-04-25 12:30:00,474 - root - INFO - [weather_data_generator.py:217] Saving output_data in C:\toy_data_generator\data\output\simulated_weather_output.csv.
-2019-04-25 12:30:00,484 - root - INFO - [weather_data_generator.py:224] Completed saving output_data in C:\data\output\simulated_weather_output.csv.
+2019-04-25 12:30:00,484 - root - INFO - [weather_data_generator.py:224] Completed saving output_data in C:\toy_data_generator\data\output\simulated_weather_output.csv.
 2019-04-25 12:30:00,484 - root - INFO - [run.py:60] Completed running weather data generator in 00:00:00:0.08053994178771973.
 ```
 
