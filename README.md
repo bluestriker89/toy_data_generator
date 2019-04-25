@@ -74,7 +74,10 @@ python run.py --number_simulated_data=<number_simulated_data> --generate_baselin
 ```
 Arguments:
 
-
+Parameter                 | Default       | Required   | Description   
+------------------------ |--------------| --------------| --------------
+\-\-number_simulated_data | N/A| Yes | Number of data points to be generated
+\-\-generate_baseline_flag | 0.1 | No | Flag if new baseline data is generated
 
 
 
