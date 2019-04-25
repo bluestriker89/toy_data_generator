@@ -1,8 +1,8 @@
 # Toy Data Generator
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 
@@ -81,18 +81,18 @@ longitude_condition | See the `config.yaml` | Condition in the getting the `{gri
 #### 3. location
 
 List of locations to generate baseline and simulated weather data. Default values are:
-- Sydney, Australia
-- Katoomba, Australia
-- Melbourne, Australia
-- Adelaide, Australia
-- Beijing, China
-- Manila, Philippines
-- Paris, France
-- London, United Kingdom
-- Toronto, Canada
-- Los Angeles, United States
-- Buenos Aires, Argentina
-- Cape Town, South Africa
+ - Sydney, Australia
+ - Katoomba, Australia
+ - Melbourne, Australia
+ - Adelaide, Australia
+ - Beijing, China
+ - Manila, Philippines
+ - Paris, France
+ - London, United Kingdom
+ - Toronto, Canada
+ - Los Angeles, United States
+ - Buenos Aires, Argentina
+ - Cape Town, South Africa
 
 ##### 4. simulation
 
@@ -143,7 +143,7 @@ Parameter                 | Default       | Required   | Description
 \-\-number_simulated_data | N/A| Yes | Number of data points to be generated
 \-\-generate_baseline_flag | False | No | Flag if new baseline data is generated
 
-Sample successful execution output:
+Sample successful execution output using `python run.py --number_simulated_data=10` command:
 
 ```sh
 2019-04-25 12:30:00,404 - root - INFO - [run.py:49] Running weather data generator with number_simulated_data: 10 and generate_baseline_flag: False.
@@ -183,12 +183,6 @@ Sample successful execution output:
 2019-04-25 12:30:00,484 - root - INFO - [run.py:60] Completed running weather data generator in 00:00:00:0.08053994178771973.
 ```
 
-### Todos
-
- - Write MORE Tests
- - Add Night Mode
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-
-   [dill]: <https://github.com/joemccann/dillinger>
+## Future releases
+- [ ] Simulate a more realistic weather condition based on other meteorological measurements
+- [ ] Include other meteorological measurements such as precipitation, dew point, wind gust, etc.
