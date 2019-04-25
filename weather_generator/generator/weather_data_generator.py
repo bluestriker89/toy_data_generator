@@ -34,6 +34,8 @@ class WeatherDataGen(object):
         self.config_data = get_config()
         self.__number_simulated_data = number_simulated_data
         self.__generate_baseline_flag = generate_baseline_flag
+        self.__locations = [get_city(loc) for loc in self.config_data["location"]]
+        self.__output_cols = self.config_data["simulation"]["output_columns"]
         self.__date_start_orig = self.config_data["simulation"]["date_start"]
         self.__date_end_orig = self.config_data["simulation"]["date_end"]
         self.__date_start = datetime.datetime.combine(self.__date_start_orig, datetime.time.min).timestamp()
@@ -54,7 +56,7 @@ class WeatherDataGen(object):
             get_gis_historical_data()
             aggregate_gis_historical_data()
             
-        elif not os.path.exists(self.__output_base_reference_file_path) or not os.path.exists(self.__output_base_aggregate_file_path) :
+        elif not os.path.exists(self.__output_base_reference_file_path) or not os.path.exists(self.__output_base_aggregate_file_path):
             logging.info("Baseline data set does not exists. Generating baseline data.")
             get_gis_historical_data()
             aggregate_gis_historical_data()
@@ -63,7 +65,6 @@ class WeatherDataGen(object):
             logging.info("Baseline data sets exists.")
         
         # Reading baseline data sets.
-        
         logging.info("Reading baseline reference data.")
         self.__reference_data = pd.read_csv(self.__output_base_reference_file_path)
         logging.info("Completed reading baseline reference data.")
@@ -72,11 +73,13 @@ class WeatherDataGen(object):
         self.__aggregate_data = pd.read_csv(self.__output_base_aggregate_file_path)
         logging.info("Completed reading baseline aggregate data.")
         
-        # Reading baseline data sets.
-        self.__locations = [get_city(loc) for loc in self.config_data["location"]]
-        self.__output_cols = self.config_data["simulation"]["output_columns"]
-        
         logging.info("Initialising output_data data frame.")
+        
+        # Check if the location in the config file reconfiles with the baseline data.
+        if len(set(self.__reference_data["Location"]).difference(set(self.__locations)))!=0:
+            logging.info("Baseline data set does not exists. Generating baseline data.")
+            get_gis_historical_data()
+            aggregate_gis_historical_data()
         
         # Initialising output_data dataframe.
         self.output_data = pd.DataFrame(columns=self.__output_cols)
