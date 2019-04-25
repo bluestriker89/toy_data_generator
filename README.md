@@ -78,6 +78,38 @@ year_end | 2017 | Maximum baseline historical year data to be generated
 latitude_condition | See the `config.yaml` | Condition in the getting the `{grid_id}` latitude file number
 longitude_condition | See the `config.yaml` | Condition in the getting the `{grid_id}` longitude file letter
 
+#### 3. location
+
+List of locations to generate baseline and simulated weather data. Default values are:
+- Sydney, Australia
+- Katoomba, Australia
+- Melbourne, Australia
+- Adelaide, Australia
+- Beijing, China
+- Manila, Philippines
+- Paris, France
+- London, United Kingdom
+- Toronto, Canada
+- Los Angeles, United States
+- Buenos Aires, Argentina
+- Cape Town, South Africa
+
+##### 4. simulation
+
+This contains the list of parameters to generate weather output data based on baseline data sets.
+
+Parameter                 | Default  | Description   
+------------------------ |--------------| --------------
+date_start | 1980-01-01 | Minimum weather data date to be generated
+date_end | 2018-12-31 | Maximum weather data date to be generated
+output_header  | False | Output header flag
+output_delimiter | '|' | Output file delimiter
+output_subdirectory | output | Output folder subdirectory
+output_data | simulated_weather_output.csv | Output data file name
+condition | Rain, Snow, Sunny | Valid weather condition values
+output_columns | Location, Position, Local Time, Conditions, Temperature, Pressure, Humidity | Output column arrangement
+
+
 #### B. logging.yaml
 
 This logging configuration file contains the loggin settings.

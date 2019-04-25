@@ -1,4 +1,13 @@
 Location,Latitude,Longitude,Elevation,Timezone,Position
 Sydney,-33.8548157,151.2164539,0,Australia/Sydney,"-33.85,151.22,0"
+Katoomba,-33.713759,150.3121633,40,Australia/Sydney,"-33.71,150.31,40"
+Melbourne,-37.8142176,144.9631608,1,Australia/Melbourne,"-37.81,144.96,1"
 Adelaide,-34.9281805,138.5999312,2,Australia/Adelaide,"-34.93,138.6,2"
 Beijing,39.906217,116.3912757,1,Asia/Shanghai,"39.91,116.39,1"
+Manila,14.5906216,120.9799696,0,Asia/Manila,"14.59,120.98,0"
+Paris,48.8566101,2.3514992,1,Europe/Paris,"48.86,2.35,1"
+London,51.5073219,-0.1276474,0,Europe/London,"51.51,-0.13,0"
+Toronto,43.653963,-79.387207,4,America/Toronto,"43.65,-79.39,4"
+Los Angeles,34.0536909,-118.2427666,4,America/Los_Angeles,"34.05,-118.24,4"
+Buenos Aires,-34.6075616,-58.437076,1,America/Argentina/Buenos_Aires,"-34.61,-58.44,1"
+Cape Town,-33.928992,18.417396,1,Africa/Johannesburg,"-33.93,18.42,1"

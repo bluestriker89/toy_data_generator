@@ -1,6 +1,6 @@
 ---
 # This is the configuration data file.
-forecastio_api_key: c3b2d37a919e1c6d58b57c8b50f1a99a
+forecastio_api_key: 5d0f96c589a112f0ab4449b48373d46c
 
 # Baseline data configuration parameters.
 gis:

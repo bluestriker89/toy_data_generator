@@ -1035,3 +1035,376 @@
 2019-04-25 13:33:19,418 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (43.653963, -79.387207) is in gebco_08_rev_elev_B1_grey_geo.tif file.
 2019-04-25 13:33:19,422 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (43.653963, -79.387207). Elevation value: 4.
 2019-04-25 13:33:19,428 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 1.
+2019-04-25 13:38:02,089 - root - INFO - [run.py:49] Running weather data generator with number_simulated_data: 10 and generate_baseline_flag: True.
+2019-04-25 13:38:02,090 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:38:02,100 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:38:02,101 - root - INFO - [generate_baseline_data.py:91] Generating baseline reference and historical weather data.
+2019-04-25 13:38:02,166 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Sydney, Australia.
+2019-04-25 13:38:04,074 - root - INFO - [generate_baseline_data.py:122] Check if the location Sydney, Australia is valid.
+2019-04-25 13:38:04,075 - root - INFO - [generate_baseline_data.py:126] The location Sydney, Australia is valid.
+2019-04-25 13:38:04,077 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (-33.8548157, 151.2164539).
+2019-04-25 13:38:04,091 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (-33.8548157, 151.2164539).
+2019-04-25 13:38:04,092 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (-33.8548157, 151.2164539) is in gebco_08_rev_elev_D2_grey_geo.tif file.
+2019-04-25 13:38:04,098 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (-33.8548157, 151.2164539). Elevation value: 0.
+2019-04-25 13:38:04,099 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 1.
+2019-04-25 13:38:06,439 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 2.
+2019-04-25 13:38:08,531 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 3.
+2019-04-25 13:38:10,547 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 4.
+2019-04-25 13:38:13,298 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 5.
+2019-04-25 13:38:15,291 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 6.
+2019-04-25 13:38:17,284 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 7.
+2019-04-25 13:38:19,283 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 8.
+2019-04-25 13:38:21,281 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 9.
+2019-04-25 13:38:23,510 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 10.
+2019-04-25 13:38:26,564 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 11.
+2019-04-25 13:38:28,855 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 12.
+2019-04-25 13:38:30,907 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Katoomba, Australia.
+2019-04-25 13:38:32,417 - root - INFO - [generate_baseline_data.py:122] Check if the location Katoomba, Australia is valid.
+2019-04-25 13:38:32,418 - root - INFO - [generate_baseline_data.py:126] The location Katoomba, Australia is valid.
+2019-04-25 13:38:32,422 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (-33.713759, 150.3121633).
+2019-04-25 13:38:32,456 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (-33.713759, 150.3121633).
+2019-04-25 13:38:32,457 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (-33.713759, 150.3121633) is in gebco_08_rev_elev_D2_grey_geo.tif file.
+2019-04-25 13:38:32,465 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (-33.713759, 150.3121633). Elevation value: 40.
+2019-04-25 13:38:32,467 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 1.
+2019-04-25 13:38:34,989 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 2.
+2019-04-25 13:38:37,652 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 3.
+2019-04-25 13:38:39,727 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 4.
+2019-04-25 13:38:41,785 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 5.
+2019-04-25 13:38:44,275 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 6.
+2019-04-25 13:38:46,324 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 7.
+2019-04-25 13:38:48,404 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 8.
+2019-04-25 13:38:50,753 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 9.
+2019-04-25 13:38:52,817 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 10.
+2019-04-25 13:38:55,224 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 11.
+2019-04-25 13:38:57,566 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 12.
+2019-04-25 13:38:59,841 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Melbourne, Australia.
+2019-04-25 13:39:01,270 - root - INFO - [generate_baseline_data.py:122] Check if the location Melbourne, Australia is valid.
+2019-04-25 13:39:01,270 - root - INFO - [generate_baseline_data.py:126] The location Melbourne, Australia is valid.
+2019-04-25 13:39:01,270 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (-37.8142176, 144.9631608).
+2019-04-25 13:39:01,281 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (-37.8142176, 144.9631608).
+2019-04-25 13:39:01,282 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (-37.8142176, 144.9631608) is in gebco_08_rev_elev_D2_grey_geo.tif file.
+2019-04-25 13:39:01,291 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (-37.8142176, 144.9631608). Elevation value: 1.
+2019-04-25 13:39:01,292 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 1.
+2019-04-25 13:39:03,531 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 2.
+2019-04-25 13:39:05,941 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 3.
+2019-04-25 13:39:08,508 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 4.
+2019-04-25 13:39:10,936 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 5.
+2019-04-25 13:39:13,212 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 6.
+2019-04-25 13:39:15,357 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 7.
+2019-04-25 13:39:17,910 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 8.
+2019-04-25 13:39:21,461 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 9.
+2019-04-25 13:39:23,842 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 10.
+2019-04-25 13:39:25,854 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 11.
+2019-04-25 13:39:28,080 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 12.
+2019-04-25 13:39:30,098 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Adelaide, Australia.
+2019-04-25 13:39:31,499 - root - INFO - [generate_baseline_data.py:122] Check if the location Adelaide, Australia is valid.
+2019-04-25 13:39:31,500 - root - INFO - [generate_baseline_data.py:126] The location Adelaide, Australia is valid.
+2019-04-25 13:39:31,502 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (-34.9281805, 138.5999312).
+2019-04-25 13:39:31,519 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (-34.9281805, 138.5999312).
+2019-04-25 13:39:31,520 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (-34.9281805, 138.5999312) is in gebco_08_rev_elev_D2_grey_geo.tif file.
+2019-04-25 13:39:31,525 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (-34.9281805, 138.5999312). Elevation value: 2.
+2019-04-25 13:39:31,525 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 1.
+2019-04-25 13:39:33,739 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 2.
+2019-04-25 13:39:37,162 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 3.
+2019-04-25 13:39:39,176 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 4.
+2019-04-25 13:39:41,700 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 5.
+2019-04-25 13:39:43,972 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 6.
+2019-04-25 13:39:46,369 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 7.
+2019-04-25 13:39:49,607 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 8.
+2019-04-25 13:39:53,868 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 9.
+2019-04-25 13:39:55,928 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 10.
+2019-04-25 13:39:58,136 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 11.
+2019-04-25 13:40:01,308 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 12.
+2019-04-25 13:40:03,379 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Beijing, China.
+2019-04-25 13:40:04,776 - root - INFO - [generate_baseline_data.py:122] Check if the location Beijing, China is valid.
+2019-04-25 13:40:04,777 - root - INFO - [generate_baseline_data.py:126] The location Beijing, China is valid.
+2019-04-25 13:40:04,778 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (39.906217, 116.3912757).
+2019-04-25 13:40:04,793 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (39.906217, 116.3912757).
+2019-04-25 13:40:04,794 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (39.906217, 116.3912757) is in gebco_08_rev_elev_D1_grey_geo.tif file.
+2019-04-25 13:40:04,799 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (39.906217, 116.3912757). Elevation value: 1.
+2019-04-25 13:40:04,803 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 1.
+2019-04-25 13:40:07,340 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 2.
+2019-04-25 13:40:09,855 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 3.
+2019-04-25 13:40:12,076 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 4.
+2019-04-25 13:40:14,121 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 5.
+2019-04-25 13:40:16,499 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 6.
+2019-04-25 13:40:18,686 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 7.
+2019-04-25 13:40:21,145 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 8.
+2019-04-25 13:40:23,407 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 9.
+2019-04-25 13:40:25,362 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 10.
+2019-04-25 13:40:27,621 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 11.
+2019-04-25 13:40:29,627 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 12.
+2019-04-25 13:41:40,734 - root - INFO - [run.py:49] Running weather data generator with number_simulated_data: 10 and generate_baseline_flag: True.
+2019-04-25 13:41:40,735 - root - INFO - [weather_data_generator.py:26] Initialising WeatherDataGen class.
+2019-04-25 13:41:40,742 - root - INFO - [weather_data_generator.py:52] Checking if the baseline data set exists.
+2019-04-25 13:41:40,743 - root - INFO - [generate_baseline_data.py:91] Generating baseline reference and historical weather data.
+2019-04-25 13:41:40,818 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Sydney, Australia.
+2019-04-25 13:41:42,683 - root - INFO - [generate_baseline_data.py:122] Check if the location Sydney, Australia is valid.
+2019-04-25 13:41:42,684 - root - INFO - [generate_baseline_data.py:126] The location Sydney, Australia is valid.
+2019-04-25 13:41:42,685 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (-33.8548157, 151.2164539).
+2019-04-25 13:41:42,711 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (-33.8548157, 151.2164539).
+2019-04-25 13:41:42,711 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (-33.8548157, 151.2164539) is in gebco_08_rev_elev_D2_grey_geo.tif file.
+2019-04-25 13:41:42,716 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (-33.8548157, 151.2164539). Elevation value: 0.
+2019-04-25 13:41:42,716 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 1.
+2019-04-25 13:41:45,327 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 2.
+2019-04-25 13:41:47,476 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 3.
+2019-04-25 13:41:49,850 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 4.
+2019-04-25 13:41:52,358 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 5.
+2019-04-25 13:41:54,414 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 6.
+2019-04-25 13:41:56,887 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 7.
+2019-04-25 13:41:59,482 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 8.
+2019-04-25 13:42:01,819 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 9.
+2019-04-25 13:42:04,002 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 10.
+2019-04-25 13:42:06,007 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 11.
+2019-04-25 13:42:08,536 - root - INFO - [generate_baseline_data.py:137] Retrieving Sydney, Australia weather data for month 12.
+2019-04-25 13:42:10,538 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Katoomba, Australia.
+2019-04-25 13:42:11,961 - root - INFO - [generate_baseline_data.py:122] Check if the location Katoomba, Australia is valid.
+2019-04-25 13:42:11,962 - root - INFO - [generate_baseline_data.py:126] The location Katoomba, Australia is valid.
+2019-04-25 13:42:11,963 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (-33.713759, 150.3121633).
+2019-04-25 13:42:11,996 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (-33.713759, 150.3121633).
+2019-04-25 13:42:11,997 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (-33.713759, 150.3121633) is in gebco_08_rev_elev_D2_grey_geo.tif file.
+2019-04-25 13:42:12,001 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (-33.713759, 150.3121633). Elevation value: 40.
+2019-04-25 13:42:12,002 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 1.
+2019-04-25 13:42:14,301 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 2.
+2019-04-25 13:42:16,287 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 3.
+2019-04-25 13:42:18,642 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 4.
+2019-04-25 13:42:20,831 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 5.
+2019-04-25 13:42:22,819 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 6.
+2019-04-25 13:42:25,086 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 7.
+2019-04-25 13:42:27,445 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 8.
+2019-04-25 13:42:30,652 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 9.
+2019-04-25 13:42:33,215 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 10.
+2019-04-25 13:42:35,217 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 11.
+2019-04-25 13:42:37,517 - root - INFO - [generate_baseline_data.py:137] Retrieving Katoomba, Australia weather data for month 12.
+2019-04-25 13:42:39,583 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Melbourne, Australia.
+2019-04-25 13:42:41,012 - root - INFO - [generate_baseline_data.py:122] Check if the location Melbourne, Australia is valid.
+2019-04-25 13:42:41,013 - root - INFO - [generate_baseline_data.py:126] The location Melbourne, Australia is valid.
+2019-04-25 13:42:41,015 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (-37.8142176, 144.9631608).
+2019-04-25 13:42:41,026 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (-37.8142176, 144.9631608).
+2019-04-25 13:42:41,026 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (-37.8142176, 144.9631608) is in gebco_08_rev_elev_D2_grey_geo.tif file.
+2019-04-25 13:42:41,030 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (-37.8142176, 144.9631608). Elevation value: 1.
+2019-04-25 13:42:41,030 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 1.
+2019-04-25 13:42:43,843 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 2.
+2019-04-25 13:42:46,261 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 3.
+2019-04-25 13:42:48,252 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 4.
+2019-04-25 13:42:50,658 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 5.
+2019-04-25 13:42:52,700 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 6.
+2019-04-25 13:42:55,414 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 7.
+2019-04-25 13:42:57,852 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 8.
+2019-04-25 13:43:00,417 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 9.
+2019-04-25 13:43:02,737 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 10.
+2019-04-25 13:43:04,758 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 11.
+2019-04-25 13:43:07,006 - root - INFO - [generate_baseline_data.py:137] Retrieving Melbourne, Australia weather data for month 12.
+2019-04-25 13:43:09,220 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Adelaide, Australia.
+2019-04-25 13:43:10,618 - root - INFO - [generate_baseline_data.py:122] Check if the location Adelaide, Australia is valid.
+2019-04-25 13:43:10,618 - root - INFO - [generate_baseline_data.py:126] The location Adelaide, Australia is valid.
+2019-04-25 13:43:10,620 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (-34.9281805, 138.5999312).
+2019-04-25 13:43:10,634 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (-34.9281805, 138.5999312).
+2019-04-25 13:43:10,634 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (-34.9281805, 138.5999312) is in gebco_08_rev_elev_D2_grey_geo.tif file.
+2019-04-25 13:43:10,638 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (-34.9281805, 138.5999312). Elevation value: 2.
+2019-04-25 13:43:10,646 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 1.
+2019-04-25 13:43:13,242 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 2.
+2019-04-25 13:43:15,609 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 3.
+2019-04-25 13:43:19,455 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 4.
+2019-04-25 13:43:22,219 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 5.
+2019-04-25 13:43:24,296 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 6.
+2019-04-25 13:43:26,911 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 7.
+2019-04-25 13:43:29,179 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 8.
+2019-04-25 13:43:31,227 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 9.
+2019-04-25 13:43:33,347 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 10.
+2019-04-25 13:43:35,575 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 11.
+2019-04-25 13:43:38,084 - root - INFO - [generate_baseline_data.py:137] Retrieving Adelaide, Australia weather data for month 12.
+2019-04-25 13:43:40,711 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Beijing, China.
+2019-04-25 13:43:42,116 - root - INFO - [generate_baseline_data.py:122] Check if the location Beijing, China is valid.
+2019-04-25 13:43:42,116 - root - INFO - [generate_baseline_data.py:126] The location Beijing, China is valid.
+2019-04-25 13:43:42,119 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (39.906217, 116.3912757).
+2019-04-25 13:43:42,140 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (39.906217, 116.3912757).
+2019-04-25 13:43:42,141 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (39.906217, 116.3912757) is in gebco_08_rev_elev_D1_grey_geo.tif file.
+2019-04-25 13:43:42,156 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (39.906217, 116.3912757). Elevation value: 1.
+2019-04-25 13:43:42,156 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 1.
+2019-04-25 13:43:44,134 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 2.
+2019-04-25 13:43:46,475 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 3.
+2019-04-25 13:43:48,746 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 4.
+2019-04-25 13:43:51,210 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 5.
+2019-04-25 13:43:53,486 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 6.
+2019-04-25 13:43:55,473 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 7.
+2019-04-25 13:43:57,443 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 8.
+2019-04-25 13:43:59,664 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 9.
+2019-04-25 13:44:01,906 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 10.
+2019-04-25 13:44:05,359 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 11.
+2019-04-25 13:44:07,560 - root - INFO - [generate_baseline_data.py:137] Retrieving Beijing, China weather data for month 12.
+2019-04-25 13:44:09,835 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Manila, Philippines.
+2019-04-25 13:44:11,234 - root - INFO - [generate_baseline_data.py:122] Check if the location Manila, Philippines is valid.
+2019-04-25 13:44:11,234 - root - INFO - [generate_baseline_data.py:126] The location Manila, Philippines is valid.
+2019-04-25 13:44:11,235 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (14.5906216, 120.9799696).
+2019-04-25 13:44:11,242 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (14.5906216, 120.9799696).
+2019-04-25 13:44:11,243 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (14.5906216, 120.9799696) is in gebco_08_rev_elev_D1_grey_geo.tif file.
+2019-04-25 13:44:11,245 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (14.5906216, 120.9799696). Elevation value: 0.
+2019-04-25 13:44:11,245 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 1.
+2019-04-25 13:44:13,505 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 2.
+2019-04-25 13:44:15,479 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 3.
+2019-04-25 13:44:17,536 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 4.
+2019-04-25 13:44:19,738 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 5.
+2019-04-25 13:44:21,998 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 6.
+2019-04-25 13:44:24,294 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 7.
+2019-04-25 13:44:26,591 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 8.
+2019-04-25 13:44:28,967 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 9.
+2019-04-25 13:44:30,951 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 10.
+2019-04-25 13:44:32,937 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 11.
+2019-04-25 13:44:35,175 - root - INFO - [generate_baseline_data.py:137] Retrieving Manila, Philippines weather data for month 12.
+2019-04-25 13:44:37,658 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Paris, France.
+2019-04-25 13:44:39,087 - root - INFO - [generate_baseline_data.py:122] Check if the location Paris, France is valid.
+2019-04-25 13:44:39,088 - root - INFO - [generate_baseline_data.py:126] The location Paris, France is valid.
+2019-04-25 13:44:39,088 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (48.8566101, 2.3514992).
+2019-04-25 13:44:39,096 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (48.8566101, 2.3514992).
+2019-04-25 13:44:39,096 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (48.8566101, 2.3514992) is in gebco_08_rev_elev_C1_grey_geo.tif file.
+2019-04-25 13:44:39,100 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (48.8566101, 2.3514992). Elevation value: 1.
+2019-04-25 13:44:39,100 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 1.
+2019-04-25 13:44:41,237 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 2.
+2019-04-25 13:44:43,473 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 3.
+2019-04-25 13:44:45,890 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 4.
+2019-04-25 13:44:48,293 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 5.
+2019-04-25 13:44:50,311 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 6.
+2019-04-25 13:44:52,295 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 7.
+2019-04-25 13:44:54,522 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 8.
+2019-04-25 13:44:57,864 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 9.
+2019-04-25 13:45:00,105 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 10.
+2019-04-25 13:45:02,413 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 11.
+2019-04-25 13:45:05,100 - root - INFO - [generate_baseline_data.py:137] Retrieving Paris, France weather data for month 12.
+2019-04-25 13:45:07,382 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for London, United Kingdom.
+2019-04-25 13:45:08,791 - root - INFO - [generate_baseline_data.py:122] Check if the location London, United Kingdom is valid.
+2019-04-25 13:45:08,792 - root - INFO - [generate_baseline_data.py:126] The location London, United Kingdom is valid.
+2019-04-25 13:45:08,792 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (51.5073219, -0.1276474).
+2019-04-25 13:45:08,807 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (51.5073219, -0.1276474).
+2019-04-25 13:45:08,808 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (51.5073219, -0.1276474) is in gebco_08_rev_elev_B1_grey_geo.tif file.
+2019-04-25 13:45:08,811 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (51.5073219, -0.1276474). Elevation value: 0.
+2019-04-25 13:45:08,812 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 1.
+2019-04-25 13:45:10,830 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 2.
+2019-04-25 13:45:14,259 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 3.
+2019-04-25 13:45:16,276 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 4.
+2019-04-25 13:45:18,652 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 5.
+2019-04-25 13:45:20,865 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 6.
+2019-04-25 13:45:23,148 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 7.
+2019-04-25 13:45:25,376 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 8.
+2019-04-25 13:45:27,606 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 9.
+2019-04-25 13:45:29,648 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 10.
+2019-04-25 13:45:32,361 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 11.
+2019-04-25 13:45:34,885 - root - INFO - [generate_baseline_data.py:137] Retrieving London, United Kingdom weather data for month 12.
+2019-04-25 13:45:37,139 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Toronto, Canada.
+2019-04-25 13:45:38,550 - root - INFO - [generate_baseline_data.py:122] Check if the location Toronto, Canada is valid.
+2019-04-25 13:45:38,551 - root - INFO - [generate_baseline_data.py:126] The location Toronto, Canada is valid.
+2019-04-25 13:45:38,553 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (43.653963, -79.387207).
+2019-04-25 13:45:38,576 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (43.653963, -79.387207).
+2019-04-25 13:45:38,576 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (43.653963, -79.387207) is in gebco_08_rev_elev_B1_grey_geo.tif file.
+2019-04-25 13:45:38,582 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (43.653963, -79.387207). Elevation value: 4.
+2019-04-25 13:45:38,583 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 1.
+2019-04-25 13:45:40,588 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 2.
+2019-04-25 13:45:42,848 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 3.
+2019-04-25 13:45:45,280 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 4.
+2019-04-25 13:45:47,478 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 5.
+2019-04-25 13:45:49,998 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 6.
+2019-04-25 13:45:52,878 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 7.
+2019-04-25 13:45:54,884 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 8.
+2019-04-25 13:45:57,178 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 9.
+2019-04-25 13:45:59,175 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 10.
+2019-04-25 13:46:03,007 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 11.
+2019-04-25 13:46:05,314 - root - INFO - [generate_baseline_data.py:137] Retrieving Toronto, Canada weather data for month 12.
+2019-04-25 13:46:07,345 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Los Angeles, United States.
+2019-04-25 13:46:08,761 - root - INFO - [generate_baseline_data.py:122] Check if the location Los Angeles, United States is valid.
+2019-04-25 13:46:08,762 - root - INFO - [generate_baseline_data.py:126] The location Los Angeles, United States is valid.
+2019-04-25 13:46:08,762 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (34.0536909, -118.2427666).
+2019-04-25 13:46:08,790 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (34.0536909, -118.2427666).
+2019-04-25 13:46:08,791 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (34.0536909, -118.2427666) is in gebco_08_rev_elev_A1_grey_geo.tif file.
+2019-04-25 13:46:08,797 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (34.0536909, -118.2427666). Elevation value: 4.
+2019-04-25 13:46:08,798 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 1.
+2019-04-25 13:46:11,076 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 2.
+2019-04-25 13:46:13,644 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 3.
+2019-04-25 13:46:16,532 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 4.
+2019-04-25 13:46:19,130 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 5.
+2019-04-25 13:46:21,415 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 6.
+2019-04-25 13:46:24,207 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 7.
+2019-04-25 13:46:26,541 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 8.
+2019-04-25 13:46:28,906 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 9.
+2019-04-25 13:46:31,524 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 10.
+2019-04-25 13:46:33,985 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 11.
+2019-04-25 13:46:36,503 - root - INFO - [generate_baseline_data.py:137] Retrieving Los Angeles, United States weather data for month 12.
+2019-04-25 13:46:38,964 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Buenos Aires, Argentina.
+2019-04-25 13:46:40,401 - root - INFO - [generate_baseline_data.py:122] Check if the location Buenos Aires, Argentina is valid.
+2019-04-25 13:46:40,402 - root - INFO - [generate_baseline_data.py:126] The location Buenos Aires, Argentina is valid.
+2019-04-25 13:46:40,402 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (-34.6075616, -58.437076).
+2019-04-25 13:46:40,442 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (-34.6075616, -58.437076).
+2019-04-25 13:46:40,443 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (-34.6075616, -58.437076) is in gebco_08_rev_elev_B2_grey_geo.tif file.
+2019-04-25 13:46:40,446 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (-34.6075616, -58.437076). Elevation value: 1.
+2019-04-25 13:46:40,446 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 1.
+2019-04-25 13:46:42,589 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 2.
+2019-04-25 13:46:44,871 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 3.
+2019-04-25 13:46:47,429 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 4.
+2019-04-25 13:46:49,474 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 5.
+2019-04-25 13:46:51,536 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 6.
+2019-04-25 13:46:54,848 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 7.
+2019-04-25 13:46:57,294 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 8.
+2019-04-25 13:46:59,560 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 9.
+2019-04-25 13:47:01,598 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 10.
+2019-04-25 13:47:03,840 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 11.
+2019-04-25 13:47:06,168 - root - INFO - [generate_baseline_data.py:137] Retrieving Buenos Aires, Argentina weather data for month 12.
+2019-04-25 13:47:08,477 - root - INFO - [generate_baseline_data.py:117] Retrieving geolocation data for Cape Town, South Africa.
+2019-04-25 13:47:09,976 - root - INFO - [generate_baseline_data.py:122] Check if the location Cape Town, South Africa is valid.
+2019-04-25 13:47:09,977 - root - INFO - [generate_baseline_data.py:126] The location Cape Town, South Africa is valid.
+2019-04-25 13:47:09,979 - root - INFO - [generate_baseline_data.py:36] Getting elevation data for the coordinate (-33.928992, 18.417396).
+2019-04-25 13:47:10,010 - root - INFO - [generate_baseline_data.py:45] Determining the appropriate tif file for the coordinate (-33.928992, 18.417396).
+2019-04-25 13:47:10,011 - root - INFO - [generate_baseline_data.py:74] Retrieving elevation data for the coordinate (-33.928992, 18.417396) is in gebco_08_rev_elev_C2_grey_geo.tif file.
+2019-04-25 13:47:10,015 - root - INFO - [generate_baseline_data.py:81] Completed retrieving elevation data for the coordinate (-33.928992, 18.417396). Elevation value: 1.
+2019-04-25 13:47:10,015 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 1.
+2019-04-25 13:47:12,445 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 2.
+2019-04-25 13:47:14,682 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 3.
+2019-04-25 13:47:16,681 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 4.
+2019-04-25 13:47:19,582 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 5.
+2019-04-25 13:47:21,572 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 6.
+2019-04-25 13:47:23,556 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 7.
+2019-04-25 13:47:25,583 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 8.
+2019-04-25 13:47:27,751 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 9.
+2019-04-25 13:47:30,201 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 10.
+2019-04-25 13:47:32,270 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 11.
+2019-04-25 13:47:34,477 - root - INFO - [generate_baseline_data.py:137] Retrieving Cape Town, South Africa weather data for month 12.
+2019-04-25 13:47:36,802 - root - INFO - [generate_baseline_data.py:186] Generating position to consolidate latitude, longitude and elevation data
+2019-04-25 13:47:36,813 - root - INFO - [generate_baseline_data.py:191] Saving baseline reference data.
+2019-04-25 13:47:36,832 - root - INFO - [generate_baseline_data.py:196] Completed saving baseline reference data.
+2019-04-25 13:47:36,833 - root - INFO - [generate_baseline_data.py:198] Saving baseline historical data.
+2019-04-25 13:47:36,843 - root - INFO - [generate_baseline_data.py:203] Completed saving baseline historical data.
+2019-04-25 13:47:36,843 - root - INFO - [generate_baseline_data.py:213] Processing historical weather data aggregation.
+2019-04-25 13:47:36,851 - root - INFO - [generate_baseline_data.py:233] Reading historical weather data.
+2019-04-25 13:47:36,854 - root - INFO - [generate_baseline_data.py:238] Completed reading historical weather data.
+2019-04-25 13:47:36,854 - root - INFO - [generate_baseline_data.py:240] Aggregating historical weather data.
+2019-04-25 13:47:36,883 - root - INFO - [generate_baseline_data.py:254] Saving baseline aggregate data.
+2019-04-25 13:47:36,893 - root - INFO - [generate_baseline_data.py:259] Completed saving baseline aggregate data.
+2019-04-25 13:47:36,894 - root - INFO - [weather_data_generator.py:68] Reading baseline reference data.
+2019-04-25 13:47:36,897 - root - INFO - [weather_data_generator.py:70] Completed reading baseline reference data.
+2019-04-25 13:47:36,897 - root - INFO - [weather_data_generator.py:72] Reading baseline aggregate data.
+2019-04-25 13:47:36,901 - root - INFO - [weather_data_generator.py:74] Completed reading baseline aggregate data.
+2019-04-25 13:47:36,901 - root - INFO - [weather_data_generator.py:76] Initialising output_data data frame.
+2019-04-25 13:47:36,905 - root - INFO - [weather_data_generator.py:87] Completed initialising WeatherDataGen class.
+2019-04-25 13:47:36,906 - root - INFO - [weather_data_generator.py:231] Running weather data generation.
+2019-04-25 13:47:36,906 - root - INFO - [weather_data_generator.py:93] Generating 10 random location(s).
+2019-04-25 13:47:36,909 - root - INFO - [weather_data_generator.py:98] Completed generating 10 random location(s).
+2019-04-25 13:47:36,909 - root - INFO - [weather_data_generator.py:104] Merging the output data with baseline reference data.
+2019-04-25 13:47:36,912 - root - INFO - [weather_data_generator.py:111] Completed merging the output data with baseline reference data.
+2019-04-25 13:47:36,913 - root - INFO - [weather_data_generator.py:130] Generating timestamp data for the output data between 1980-01-01 and 2018-12-31.
+2019-04-25 13:47:36,916 - root - INFO - [weather_data_generator.py:140] Completed generating timestamp data for the output data.
+2019-04-25 13:47:36,916 - root - INFO - [weather_data_generator.py:117] Merging the output data with baseline aggregate data.
+2019-04-25 13:47:36,920 - root - INFO - [weather_data_generator.py:124] Completed merging the output data with baseline aggregate data.
+2019-04-25 13:47:36,920 - root - INFO - [weather_data_generator.py:149] Initialising weather variable data.
+2019-04-25 13:47:36,921 - root - INFO - [weather_data_generator.py:159] Completed initialising weather variable data.
+2019-04-25 13:47:36,921 - root - INFO - [weather_data_generator.py:162] Generating weather condition data.
+2019-04-25 13:47:36,922 - root - INFO - [weather_data_generator.py:167] Completed updating the output data with the generated weather condition data.
+2019-04-25 13:47:36,923 - root - INFO - [weather_data_generator.py:170] Generating temperature data.
+2019-04-25 13:47:36,928 - root - INFO - [weather_data_generator.py:176] Completed updating the output data with the generated temperature data.
+2019-04-25 13:47:36,928 - root - INFO - [weather_data_generator.py:179] Generating pressure data.
+2019-04-25 13:47:36,929 - root - INFO - [weather_data_generator.py:184] Completed updating the output data with the generated pressure data.
+2019-04-25 13:47:36,930 - root - INFO - [weather_data_generator.py:187] Generating humidity data.
+2019-04-25 13:47:36,931 - root - INFO - [weather_data_generator.py:192] Completed updating the output data with the generated humidity data.
+2019-04-25 13:47:36,931 - root - INFO - [weather_data_generator.py:200] Finalising output_data layout.
+2019-04-25 13:47:36,933 - root - INFO - [weather_data_generator.py:204] Completed finalising output_data layout.
+2019-04-25 13:47:36,933 - root - INFO - [weather_data_generator.py:241] Completed running weather data generation.
+2019-04-25 13:47:36,934 - root - INFO - [weather_data_generator.py:217] Saving output_data in C:\Users\emillaurenc\Google Drive\Codes\Weather\toy_data_generator\data\output\simulated_weather_output.csv.
+2019-04-25 13:47:36,942 - root - INFO - [weather_data_generator.py:224] Completed saving output_data in C:\Users\emillaurenc\Google Drive\Codes\Weather\toy_data_generator\data\output\simulated_weather_output.csv.
+2019-04-25 13:47:36,943 - root - INFO - [run.py:60] Completed running weather data generator in 00:05:56:356.2088906764984.
